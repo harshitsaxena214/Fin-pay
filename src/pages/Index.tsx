@@ -1,5 +1,5 @@
 
-import Navbar from '@/components/Navbar';
+import { NavBarDemo } from '@/components/ui/tubelight-navbar-demo';
 import Hero from '@/components/Hero';
 import TrustedBy from '@/components/TrustedBy';
 import Features from '@/components/Features';
@@ -9,7 +9,7 @@ import Footer from '@/components/Footer';
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Navbar />
+      <NavBarDemo />
       <Hero />
       <TrustedBy />
       <Features />
