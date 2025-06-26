@@ -43,7 +43,7 @@ const FinpayFeatures = () => {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -52,12 +52,12 @@ const FinpayFeatures = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Experience that grows
             <br />
             <span className="text-teal-600">with your scale.</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Designed to build rapport to better help workflows for 
             your business with all the open recent build from 
             the ground up.
@@ -80,12 +80,12 @@ const FinpayFeatures = () => {
               <motion.div 
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.2 }}
-                className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-50 transition-colors"
+                className="w-16 h-16 bg-muted rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-500/10 transition-colors"
               >
-                <feature.icon className="h-8 w-8 text-gray-600 group-hover:text-teal-600 transition-colors" />
+                <feature.icon className="h-8 w-8 text-muted-foreground group-hover:text-teal-600 transition-colors" />
               </motion.div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">{feature.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+              <h3 className="text-xl font-bold text-foreground mb-3">{feature.title}</h3>
+              <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
             </motion.div>
           ))}
         </motion.div>
