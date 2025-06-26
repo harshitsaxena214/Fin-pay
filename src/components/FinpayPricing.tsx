@@ -10,7 +10,7 @@ const FinpayPricing = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -19,12 +19,12 @@ const FinpayPricing = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             We've helped
             <br />
             <span className="text-teal-600">innovative companies</span>
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-muted-foreground max-w-2xl mx-auto">
             We build for a data-rich world with hundreds of millions more people doing more every month than.
           </p>
         </motion.div>
@@ -45,8 +45,8 @@ const FinpayPricing = () => {
               transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
               className="text-center"
             >
-              <div className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">{stat.number}</div>
-              <div className="text-gray-600">{stat.label}</div>
+              <div className="text-4xl md:text-5xl font-bold text-foreground mb-2">{stat.number}</div>
+              <div className="text-muted-foreground">{stat.label}</div>
             </motion.div>
           ))}
         </motion.div>
@@ -58,10 +58,10 @@ const FinpayPricing = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto"
         >
-          <div className="bg-gray-50 rounded-3xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Plus</h3>
-            <div className="text-4xl font-bold text-gray-900 mb-6">£2.99<span className="text-lg text-gray-600">/month</span></div>
-            <button className="w-full bg-white text-gray-900 py-4 rounded-xl font-semibold hover:shadow-lg transition-all duration-200 flex items-center justify-center group">
+          <div className="bg-muted/50 rounded-3xl p-8 border border-border">
+            <h3 className="text-2xl font-bold text-foreground mb-6">Plus</h3>
+            <div className="text-4xl font-bold text-foreground mb-6">£2.99<span className="text-lg text-muted-foreground">/month</span></div>
+            <button className="w-full bg-card hover:bg-accent text-foreground py-4 rounded-xl font-semibold hover:shadow-lg transition-all duration-200 flex items-center justify-center group border border-border">
               Get started
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </button>

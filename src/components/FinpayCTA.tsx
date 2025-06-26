@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const FinpayCTA = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+    <section className="py-20 bg-gradient-to-br from-muted to-muted/50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -12,13 +12,13 @@ const FinpayCTA = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Ready to level up your
             <br />
-            <span className="text-teal-400">payment process?</span>
+            <span className="text-teal-600">payment process?</span>
           </h2>
           
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             From small accounts to unlimited seats and accounts that scale 
             with your business as you grow on-demand
           </p>
@@ -35,7 +35,7 @@ const FinpayCTA = () => {
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </button>
             
-            <button className="text-gray-300 hover:text-white px-8 py-4 rounded-lg text-lg font-medium transition-colors">
+            <button className="text-muted-foreground hover:text-foreground px-8 py-4 rounded-lg text-lg font-medium transition-colors">
               Learn more →
             </button>
           </motion.div>
@@ -52,30 +52,30 @@ const FinpayCTA = () => {
             <div className="w-12 h-12 bg-teal-600 rounded-lg flex items-center justify-center mx-auto mb-4">
               <ArrowRight className="h-6 w-6 text-white" />
             </div>
-            <h3 className="font-semibold">Open your account</h3>
-            <p className="text-gray-400 text-sm">
+            <h3 className="font-semibold text-foreground">Open your account</h3>
+            <p className="text-muted-foreground text-sm">
               Register with easy account steps and 
               start your own business right to all
             </p>
           </div>
           
           <div className="space-y-2">
-            <div className="w-12 h-12 bg-gray-700 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <div className="w-6 h-6 bg-white rounded-full"></div>
+            <div className="w-12 h-12 bg-muted rounded-lg flex items-center justify-center mx-auto mb-4 border border-border">
+              <div className="w-6 h-6 bg-foreground rounded-full"></div>
             </div>
-            <h3 className="font-semibold">Transfer your money</h3>
-            <p className="text-gray-400 text-sm">
+            <h3 className="font-semibold text-foreground">Transfer your money</h3>
+            <p className="text-muted-foreground text-sm">
               Send money just with the application 
               through bank account and online activity
             </p>
           </div>
           
           <div className="space-y-2">
-            <div className="w-12 h-12 bg-gray-700 rounded-lg flex items-center justify-center mx-auto mb-4">
+            <div className="w-12 h-12 bg-muted rounded-lg flex items-center justify-center mx-auto mb-4 border border-border">
               <div className="w-6 h-6 bg-teal-400 rounded-full"></div>
             </div>
-            <h3 className="font-semibold">Watch your balance grow</h3>
-            <p className="text-gray-400 text-sm">
+            <h3 className="font-semibold text-foreground">Watch your balance grow</h3>
+            <p className="text-muted-foreground text-sm">
               Get instantly your expense balance track 
               your spending with the account overview
             </p>
