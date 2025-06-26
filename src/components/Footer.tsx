@@ -63,9 +63,6 @@ const Footer = () => {
           <p className="text-muted-foreground text-sm">
             © 2024 Finpay. All rights reserved.
           </p>
-          <p className="text-muted-foreground text-sm mt-4 md:mt-0">
-            Made with ❤️ for entrepreneurs worldwide
-          </p>
         </div>
       </div>
     </footer>
