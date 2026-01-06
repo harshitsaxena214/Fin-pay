@@ -1,45 +1,50 @@
-# Welcome to my project
+# 💸 Finpay – Fintech Landing Page (Vibe Coded)
 
-## Project info
+A modern, visually polished fintech landing page built using **React** and **Vite**, showcasing fast, AI-assisted frontend development with smooth animations, clean UI, and responsive design.
 
-Follow these steps:
+This project focuses on frontend craftsmanship — from reusable components to animations and layout structure — demonstrating how AI can accelerate high-quality UI development.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🌐 Live Demo
 
-# Step 3: Install the necessary dependencies.
-npm i
+🔗 **https://fin-pay-zeta.vercel.app/**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## ✨ Features
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- ⚛️ Built with **React**
+- ⚡ Powered by **Vite** for fast development
+- 🎨 Modern fintech-inspired UI
+- 🎞️ Smooth UI animations
+- 📱 Fully responsive across all screen sizes
+- 🧩 Reusable and modular components
+- 🧱 UI components built using **shadcn/ui**
+- 🤖 AI-assisted development (*vibe coding*)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠 Tech Stack
 
-## What technologies are used for this project?
+- **Framework:** React
+- **Bundler:** Vite
+- **UI Components:** shadcn/ui
+- **Styling:** Tailwind CSS
+- **Language:** JavaScript
+- **Deployment:** Vercel
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🎯 Project Purpose
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project was built to:
+
+- Showcase modern frontend development skills
+- Demonstrate clean UI design with shadcn/ui
+- Implement smooth animations and responsive layouts
+- Highlight reusable component architecture
+- Explore rapid UI development using AI-assisted workflows
+- Build a production-style fintech landing page
+
+---
