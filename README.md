@@ -1,27 +1,58 @@
-# Welcome to my project
+# 💸 Finpay – Fintech Landing Page (Vibe Coded)
 
-## Project info
+A modern, visually polished fintech landing page built using **React** and **Vite**, showcasing fast, AI-assisted frontend development with smooth animations, clean UI, and responsive design.
 
-Follow these steps:
+This project focuses on frontend craftsmanship — from reusable components to animations and layout structure — demonstrating how AI can accelerate high-quality UI development.
 
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🌐 Live Demo
 
-# Step 3: Install the necessary dependencies.
-npm i
+🔗 **https://fin-pay-zeta.vercel.app/**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
 
-This project is built with:
+## ✨ Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- ⚛️ Built with **React**
+- ⚡ Powered by **Vite** for fast development
+- 🎨 Modern fintech-inspired UI
+- 🧭 Clean and responsive **navbar**
+- 🚀 Engaging **hero section**
+- 🎞️ Smooth UI animations
+- 📱 Fully responsive across all screen sizes
+- 🧩 Reusable and modular components
+- 🧱 UI components built using **shadcn/ui**
+- 🤖 AI-assisted development (*vibe coding*)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** React
+- **Bundler:** Vite
+- **UI Components:** shadcn/ui
+- **Styling:** Tailwind CSS
+- **Language:** JavaScript
+- **Deployment:** Vercel
+
+---
+
+## 🎯 Project Purpose
+
+This project was built to:
+
+- Showcase modern frontend development skills
+- Demonstrate clean UI design with shadcn/ui
+- Implement smooth animations and responsive layouts
+- Highlight reusable component architecture
+- Explore rapid UI development using AI-assisted workflows
+- Build a production-style fintech landing page
+
+---
+
+## 🚀 Getting Started (Run Locally)
+
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
