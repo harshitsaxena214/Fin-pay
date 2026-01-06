@@ -17,8 +17,6 @@ This project focuses on frontend craftsmanship — from reusable components to a
 - ⚛️ Built with **React**
 - ⚡ Powered by **Vite** for fast development
 - 🎨 Modern fintech-inspired UI
-- 🧭 Clean and responsive **navbar**
-- 🚀 Engaging **hero section**
 - 🎞️ Smooth UI animations
 - 📱 Fully responsive across all screen sizes
 - 🧩 Reusable and modular components
@@ -50,9 +48,3 @@ This project was built to:
 - Build a production-style fintech landing page
 
 ---
-
-## 🚀 Getting Started (Run Locally)
-
-### Step 1: Clone the repository
-```bash
-git clone https://github.com/your-username/your-repo-name.git
