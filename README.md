@@ -31,7 +31,7 @@ This project focuses on frontend craftsmanship — from reusable components to a
 - **Bundler:** Vite
 - **UI Components:** shadcn/ui
 - **Styling:** Tailwind CSS
-- **Language:** JavaScript
+- **Language:** TypeScript
 - **Deployment:** Vercel
 
 ---
